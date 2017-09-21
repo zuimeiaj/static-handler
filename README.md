@@ -1,21 +1,7 @@
-# vue-multiple
+> 一个js目录下的一个文件对应views目录下的一个页面
 
-> A Vue.js project
+> 在build/webpack.base.conf.js 中添加entry
 
-## Build Setup
+>  启动开发 npm run dev
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+>  构建发布 npm run build
